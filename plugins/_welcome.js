@@ -37,8 +37,8 @@ export async function before(m, { conn, participants, groupMetadata }) {
     contextInfo: { forwardedNewsletterMessageInfo: { 
     newsletterJid: "120363307382381547@newsletter",
     serverMessageId: '', 
-    newsletterName: '─͟͞̟𝑴𝒆𝒈𝒖͜𝒎͜𝒊𝒏-𝑩͜𝒐𝒕-𝑴𝑫͟͞─' }, forwardingScore: 9999999, isForwarded: true, mentionedJid: getMentionedJid(), "externalAdReply": { 
-    "title": `  ͟͞ Ａ Ｄ Ｉ Ｏ Ｓ ͟͞  `, 
+    newsletterName: '·.★·.·´¯`·.·★ 𝓝𝓮𝔂𝓻𝓪-𝓐𝓘-𝓑𝓸𝓽 ★·.·´¯`·.·★.·' }, forwardingScore: 9999999, isForwarded: true, mentionedJid: getMentionedJid(), "externalAdReply": { 
+    "title": `ıllıllı⭐🌟 Ａ Ｄ Ｉ Ｏ Ｓ 🌟⭐ıllıllı`, 
     "body": `${userName}, se despide.`, 
     "previewType": "PHOTO", 
     "thumbnailUrl": null,
