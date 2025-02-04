@@ -77,10 +77,10 @@ global.waitttt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻�
 //Enlaces
 var canal = 'https://whatsapp.com/channel/0029VacDy0R6hENqnTKnG820'  
 let canal2 = 'https://whatsapp.com/channel/0029Vaxr2YgLCoWy2NS1Ab0a'
-var git = 'https://github.com/David-Chian' 
-var youtube = 'https://youtube.com/@davidchian4957' 
-var github = 'https://github.com/David-Chian/Megumin-Bot-MD' 
-let correo = 'noisebot40@gmail.com'
+var git = 'https://github.com/FlextOFC' 
+var youtube = '' 
+var github = 'https://github.com/FlextOFC/Neyra-AI-Bot' 
+let correo = 'flextofc@gmail.com'
 
 global.redes = [canal, canal2, git, youtube, github, correo].getRandom()
 
