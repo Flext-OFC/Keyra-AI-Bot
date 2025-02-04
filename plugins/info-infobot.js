@@ -21,7 +21,7 @@ const handler = async (m, { conn, usedPrefix }) => {
   const old = performance.now();
   const neww = performance.now();
   const speed = neww - old;
-    await conn.sendMessage(m.chat, { react: { text: '🥀', key: m.key } })
+    await conn.sendMessage(m.chat, { react: { text: '🌸', key: m.key } })
   const info = `
 
 ╭━━━━━━･❪ ❁ ❫ ･━━━━━━
@@ -37,7 +37,7 @@ const handler = async (m, { conn, usedPrefix }) => {
 │
 │•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•
 │
-│➸ ৎ୭࠭͢𝑴𝒆̤𝒈𝒖̣֟፝֯𝒎̤𝒊̣𝒏🔥̤ʙⷪᴏ͓ᷫᴛⷭ𓆪͟͞ 🧸📍
+│➸ ★彡[ɴᴇʏʀᴀ-ᴀɪ-ʙᴏᴛ]彡★
 ╰━━━━━━･❪ ❁ ❫ ･━━━━━━❖`.trim();
   const doc = [
     "pdf",
@@ -50,7 +50,7 @@ const handler = async (m, { conn, usedPrefix }) => {
   const Message = {
     document: { url: `https://chat.whatsapp.com/H5bw4MJucS1BBHnZ9wv3vI` },
     mimetype: `application/${document}`,
-    fileName: `「 𝘔𝘦𝘨𝘶𝘮𝘪𝘯-𝘉𝘰𝘵💥 」`,
+    fileName: `「 𝒩𝑒𝓎𝓇𝒶-𝒜𝐼-𝐵𝑜𝓉💥 」`,
     fileLength: 99999999999999,
     pageCount: 200,
     contextInfo: {
