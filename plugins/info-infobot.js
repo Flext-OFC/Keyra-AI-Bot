@@ -60,7 +60,7 @@ const handler = async (m, { conn, usedPrefix }) => {
 showAdAttribution: !![],
             mediaType: 0x1,
             previewType: "PHOTO",
-        title: "Eʟ Bᴏᴛ Mᴀs Exᴘʟᴏsɪᴠᴏ!",
+        title: "𝐸𝓁 𝐵𝑜𝓉 𝑀𝒶𝓈 𝐵𝑜𝓃𝒾𝓉𝑜!",
         thumbnail: imagen10,
         renderLargerThumbnail: !![],
         sourceUrl: "https://chat.whatsapp.com/H5bw4MJucS1BBHnZ9wv3vI",
