@@ -12,8 +12,7 @@ Pues te presento a *OlympusHost*, un hosting de calidad con servidores dedicados
 🌠 *Console:*
 • https://console.akirax.net
 
-💥✨ *Canal:*
- httphttps://whatsapp.com/channel/0029Vb3Ocrs7IUYNQktqeE11
+💥✨ *Canal:* httphttps://whatsapp.com/channel/0029Vb3Ocrs7IUYNQktqeE11
 
 📌 *Contacto (Matias-crypto)*
 https://wa.me/5491164123932
