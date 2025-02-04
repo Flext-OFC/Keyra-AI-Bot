@@ -35,7 +35,7 @@ global.meguminJadibts = true
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 💌
 global.packsticker = `♾ ━━━━━━━━\n├ ɓσƭ:\n├ ρяοριєταяιο:\n├ ƒєϲнα ∂є ϲяєαϲιόи:\n├ нοяα:\n♾━━━━━━━━`
-global.packname = `·.★·.·´¯`·.·★ 𝓝𝓮𝔂𝓻𝓪 ★·.·´¯`·.·★.·`
+global.packname = `·.★·.·´¯`·.·★ 𝓝𝓮𝔂𝓻𝓪 ★·´¯`·.·★.·`
 global.author = `♾━━━━━━━━\n🐨🎀 𝓝𝓮𝔂𝓻𝓪-𝓐𝓘-𝓑𝓸𝓽 🎀🐨\n¸„٭⊹✡•~⍣°”ˆ˜¨ 𝙁𝙡𝙚𝙭𝙩𝙊𝙁𝘾 ¨˜ˆ”°⍣~•✡⊹٭„¸\n⇝ ${moment.tz('America/Los_Angeles').format('DD/MM/YY')}\n⇝ ${moment.tz('America/Los_Angeles').format('HH:mm:ss')} \n♾━━━━━━━━\n\n\n\nѕτιϲκєя ϐγ: ৎ୭࠭͢𝐍𝐞𝐲𝐫𝐚-𝐀𝐈-𝐁𝐨𝐭🔥`;
 global.wm = '¸„٭⊹✡•~⍣°”ˆ˜¨ 𝙉𝙚𝙮𝙧𝙖-𝘼𝙄-𝘽𝙤𝙩 ¨˜ˆ”°⍣~•✡⊹٭„¸';
 global.titulowm = '͟͞𝙽𝚎𝚢𝚛𝚊-𝙰𝙸-𝙱𝚘𝚝';
