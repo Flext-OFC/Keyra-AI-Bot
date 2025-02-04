@@ -48,7 +48,7 @@ const handler = async (m, { conn, usedPrefix }) => {
   ];
   const document = doc[Math.floor(Math.random() * doc.length)];
   const Message = {
-    document: { url: `https://chat.whatsapp.com/H5bw4MJucS1BBHnZ9wv3vI` },
+    document: { url: `https://chat.whatsapp.com/E867Fqb9zYJHlMJ2Rulckc` },
     mimetype: `application/${document}`,
     fileName: `「 𝒩𝑒𝓎𝓇𝒶-𝒜𝐼-𝐵𝑜𝓉💥 」`,
     fileLength: 99999999999999,
