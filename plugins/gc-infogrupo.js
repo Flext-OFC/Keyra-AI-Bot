@@ -10,7 +10,7 @@ const handler = async (m, {conn, participants, groupMetadata}) => {
 🥷 *Nombre:*
 → ${groupMetadata.subject}
 🌟 *Descripción:*
-→ Leelo puta (￣へ ￣ 凸
+→ ${groupMetadata.desc?.toString() || 'Sin Descripción'}
 💫 *Miembros:*
 → ${participants.length} Participantes
 👑 *Creador del Grupo:*
