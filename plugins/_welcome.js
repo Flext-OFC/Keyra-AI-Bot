@@ -19,7 +19,7 @@ export async function before(m, { conn, participants, groupMetadata }) {
  if (chat.welcome && m.messageStubType === 27) {
     this.sendMessage(m.chat, { audio: { url: vn }, 
     contextInfo: { forwardedNewsletterMessageInfo: { 
-    newsletterJid: "120363314585338428@newsletter",
+    newsletterJid: "120363398249175961@newsletter",
     serverMessageId: '', 
     newsletterName: '·.★·.·´¯`·.·★ 𝓝𝓮𝔂𝓻𝓪-𝓐𝓘-𝓑𝓸𝓽 ★·.·´¯`·.·★.·' }, forwardingScore: 9999999, isForwarded: true, mentionedJid: getMentionedJid(), "externalAdReply": { 
     "title": `ıllıllı⭐🌟 Ｗ Ｅ Ｌ Ｃ Ｏ Ｍ Ｅ 🌟⭐ıllıllı`, 
@@ -35,7 +35,7 @@ export async function before(m, { conn, participants, groupMetadata }) {
   if (chat.welcome && (m.messageStubType === 28 || m.messageStubType === 32)) {
     this.sendMessage(m.chat, { audio: { url: vn2 }, 
     contextInfo: { forwardedNewsletterMessageInfo: { 
-    newsletterJid: "1120363314585338428@newsletter",
+    newsletterJid: "120363398249175961@newsletter",
     serverMessageId: '', 
     newsletterName: '·.★·.·´¯`·.·★ 𝓝𝓮𝔂𝓻𝓪-𝓐𝓘-𝓑𝓸𝓽 ★·.·´¯`·.·★.·' }, forwardingScore: 9999999, isForwarded: true, mentionedJid: getMentionedJid(), "externalAdReply": { 
     "title": `ıllıllı⭐🌟 Ａ Ｄ Ｉ Ｏ Ｓ 🌟⭐ıllıllı`, 
