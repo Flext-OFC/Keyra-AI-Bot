@@ -95,9 +95,9 @@ ch4: '120363398249175961@newsletter',
 global.gp4 = 'https://whatsapp.com/channel/0029VajIId22phHQLslZah1n' //Grupo Oficial De Megumin
 global.gp1 = 'https://whatsapp.com/channel/0029VajIId22phHQLslZah1n' //Grupo 
 global.gp2 = 'https://whatsapp.com/channel/0029VajIId22phHQLslZah1n'//
-global.comunidad1 = 'https://whatsapp.com/channel/0029VajIId22phHQLslZah1n' //Comunidad Megumin
-global.channel = 'https://whatsapp.com/channel/0029VajIId22phHQLslZah1n' //Canal Oficial
-global.channel2 = 'https://whatsapp.com/channel/0029VajIId22phHQLslZah1n' //Canal test
+global.comunidad1 = 'https://whatsapp.com/channel/0029Vb4oRvuJuyALQAPcyu2O' //Comunidad Megumin
+global.channel = 'https://whatsapp.com/channel/0029Vb4oRvuJuyALQAPcyu2O' //Canal Oficial
+global.channel2 = 'https://whatsapp.com/channel/0029Vb4oRvuJuyALQAPcyu2O' //Canal test
 global.yt = '' //Canal De Youtube
 global.md = '' //Github Oficial
 global.correo = 'flextofc@gmail.com'
