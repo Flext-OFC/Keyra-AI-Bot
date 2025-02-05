@@ -31,7 +31,7 @@ let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 const vid = ['https://files.catbox.moe/g8cbni.mp4', 'https://files.catbox.moe/g8cbni.mp4', 'https://files.catbox.moe/g8cbni.mp4']
 
 let menu = `✦·┈๑⋅⋯🌸⋯⋅๑┈·✦
-₊‧.°.⋆✮⋆.°.‧₊(꯭𝐍𝐞𝐲𝐫𝐚-𝐀𝐈-𝐁𝐨𝐭𓏲֟፝₊‧.°.⋆✮⋆.°.‧₊
+₊‧.°.⋆✮⋆.°.‧₊(꯭𝐍𝐞𝐲𝐫𝐚-𝐀𝐈-𝐁𝐨𝐭𓏲֟፝₊✮⋆.°.‧₊
 ଘ(´•×•)⊃━☆.•° ✿ °•.
 
 “ Hola *${taguser}* soy *Keyra-AI-Bot*, ${saludo} ”
