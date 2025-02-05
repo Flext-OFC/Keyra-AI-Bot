@@ -38,7 +38,7 @@ else return m.reply(`💫 El url es incorrecto`)
 console.error(e)
 if (!stiker) stiker = e
 } finally {
-if (stiker) conn.sendFile(m.chat, stiker, 'sticker.webp', '',m, true, { contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: packname, body: `⏤͟͞ू⃪ ፝͜⁞M͢ᴇɢ፝֟ᴜᴍ⃨ɪɴ⃜✰⃔࿐`, mediaType: 2, sourceUrl: redes, thumbnail: icons}}}, { quoted: m })
+if (stiker) conn.sendFile(m.chat, stiker, 'sticker.webp', '',m, true, { contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: packname, body: `✧˚ ༘ ⋆｡˚𝙉𝙚𝙮𝙧𝙖-𝘼𝙄-𝘽𝙤𝙩✧˚ ༘ ⋆｡˚`, mediaType: 2, sourceUrl: redes, thumbnail: icons}}}, { quoted: m })
 
 else return conn.reply(m.chat, '⚠️ *_𝙇𝙖 𝙘𝙤𝙣𝙫𝙚𝙧𝙨𝙞ó𝙣 𝙝𝙖 𝙛𝙖𝙡𝙡𝙖𝙙𝙤, 𝙞𝙣𝙩𝙚𝙣𝙩𝙖 𝙚𝙣𝙫𝙞𝙖𝙧 𝙥𝙧𝙞𝙢𝙚𝙧𝙤 𝙞𝙢𝙖𝙜𝙚𝙣/𝙫𝙞𝙙𝙚𝙤/𝙜𝙞𝙛 𝙮 𝙡𝙪𝙚𝙜𝙤 𝙧𝙚𝙨𝙥𝙤𝙣𝙙𝙚 𝙘𝙤𝙣 𝙚𝙡 𝙘𝙤𝙢𝙖𝙣𝙙𝙤._*', m, rcanal)
 
