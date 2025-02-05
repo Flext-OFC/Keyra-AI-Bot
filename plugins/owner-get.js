@@ -22,5 +22,4 @@ const handler = async (m, {text}) => {
 handler.help = ['fetch', 'get'];
 handler.tags = ['owner'];
 handler.command = ['fetch', 'get'];
-handler.rowner = true;
 export default handler;
