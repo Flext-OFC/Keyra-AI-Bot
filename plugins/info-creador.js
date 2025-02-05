@@ -3,7 +3,7 @@ import PhoneNumber from 'awesome-phonenumber'
 let handler = async (m, { conn, usedPrefix, text, args, command }) => {
 //m.react('⚙️')
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
-let pp = await conn.profilePictureUrl(who).catch(_ => 'https://telegra.ph/file/24fa902ead26340f3df2c.png')
+let pp = await conn.profilePictureUrl(who).catch(_ => 'https://files.catbox.moe/q1rlnt.jpg')
 let biografia = await conn.fetchStatus('5351524614' +'@s.whatsapp.net').catch(_ => 'Sin Biografía')
 let biografiaBot = await conn.fetchStatus(`${conn.user.jid.split('@')[0]}` +'@s.whatsapp.net').catch(_ => 'Sin Biografía')
 let bio = biografia.status?.toString() || 'Sin Biografía'
