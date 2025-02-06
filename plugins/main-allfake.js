@@ -40,9 +40,9 @@ global.opts['gconly'] = true
 
 //creador y otros
 global.botcommandcount = bot.botcommandCount //Ver cuantos comandos fueron ejecutados.
-global.creador = 'Wa.me/5351524614'
+global.creador = 'Wa.me/5491168758497'
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
-global.asistencia = 'Wa.me/5351524614'
+global.asistencia = 'Wa.me/5491168758497'
 global.namechannel = '⏤͟͞ू⃪ ፝͜⁞𝐍𝐄𝐘𝐑𝐀-𝐀𝐈-𝐁𝐎𝐓✰⃔࿐/𝐅𝐥𝐞𝐱𝐭𝐎𝐅𝐂'
 global.namegrupo = '⁝̵̓ᝒ̷̸͙🌸̶̩ܻᝒ̷̸꯭͙𝐍𝐄𝐘𝐑𝐀-𝐀𝐈-𝐁𝐎𝐓'
 global.namecomu = '𝗖𝗼𝗺𝘂𝗻𝗶𝗱𝗮𝗱 𝗡𝗲𝘆𝗿𝗮-𝗔𝗜-𝗕𝗼𝘁'
@@ -77,9 +77,9 @@ global.waitttt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻�
 //Enlaces
 var canal = 'https://whatsapp.com/channel/0029VacDy0R6hENqnTKnG820'  
 let canal2 = 'https://whatsapp.com/channel/0029Vaxr2YgLCoWy2NS1Ab0a'
-var git = 'https://github.com/FlextOFC' 
+var git = 'https://github.com/Flext-OFC' 
 var youtube = '' 
-var github = 'https://github.com/FlextOFC/Neyra-AI-Bot' 
+var github = 'https://github.com/Flext-OFC/Neyra-AI-Bot' 
 let correo = 'flextofc@gmail.com'
 
 global.redes = [canal, canal2, git, youtube, github, correo].getRandom()
