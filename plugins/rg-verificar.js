@@ -73,8 +73,8 @@ let chtxt = `
   
 await conn.sendMessage(global.idchannel, { text: chtxt, contextInfo: {
 externalAdReply: {
-title: "【 🔔 𝐍𝐎𝐓𝐈𝐅𝐈𝐂𝐀𝐂𝐈𝐎́𝐍 🔔 】",
-body: '🥳 ¡𝚄𝚗 𝚞𝚜𝚞𝚊𝚛𝚒𝚘 𝚗𝚞𝚎𝚟𝚘 𝚎𝚗 𝚖𝚒 𝚋𝚊𝚜𝚎 𝚍𝚎 𝚍𝚊𝚝𝚘𝚜!',
+title: "【 ✨ ʀᴇɢɪꜱᴛʀᴏ ᴄᴏᴍᴘʟᴇᴛᴏ ✨ 】",
+body: '💥 ¡recuerda compartir el canal con tus amigos📌!',
 thumbnailUrl: perfil,
 sourceUrl: redes,
 mediaType: 1,
