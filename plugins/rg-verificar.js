@@ -60,14 +60,14 @@ await conn.sendMini(m.chat, '⊱『✅𝆺𝅥 𝗥𝗘𝗚𝗜𝗦𝗧𝗥𝗔𝗗�
 //await m.reply(`${sn}`)   
   
 let chtxt = `
-👤 *𝚄𝚜𝚎𝚛* » ${m.pushName || 'Anónimo'}
-🌎 *𝙿𝚊𝚒𝚜* » ${mundo}
-🗂 *𝚅𝚎𝚛𝚒𝚏𝚒𝚌𝚊𝚌𝚒𝚘́𝚗* » ${user.name}
-⭐️ *𝙴𝚍𝚊𝚍* » ${user.age} años
-👀 *Descripción* » ${user.descripcion} 
-⏳ *Modificación de descripción* » ${fechaBio}
-📆 *𝙵𝚎𝚌𝚑𝚊* » ${moment.tz('America/Bogota').format('DD/MM/YY')}
-☁️ *𝙽𝚞𝚖𝚎𝚛𝚘 𝚍𝚎 𝚛𝚎𝚐𝚒𝚜𝚝𝚛𝚘* »
+👤 ⊦☪᭄ *𝚄𝚜𝚎𝚛* » ${m.pushName || 'Anónimo'}
+🌎 ⊦☪᭄ *𝙿𝚊𝚒𝚜* » ${mundo}
+🗂 ⊦☪᭄ *𝚅𝚎𝚛𝚒𝚏𝚒𝚌𝚊𝚌𝚒𝚘́𝚗* » ${user.name}
+⭐️ ⊦☪᭄ *𝙴𝚍𝚊𝚍* » ${user.age} años
+👀 ⊦☪᭄ *Descripción* » ${user.descripcion} 
+⏳ ⊦☪᭄ *Modificación de descripción* » ${fechaBio}
+📆 ⊦☪᭄ *𝙵𝚎𝚌𝚑𝚊* » ${moment.tz('America/Bogota').format('DD/MM/YY')}
+☁️ ⊦☪᭄ *𝙽𝚞𝚖𝚎𝚛𝚘 𝚍𝚎 𝚛𝚎𝚐𝚒𝚜𝚝𝚛𝚘* »
 ⤷ ${sn}
 `.trim()
   
