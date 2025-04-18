@@ -21,47 +21,36 @@ let handler = async (message, { conn, text, usedPrefix, command }) => {
     return videoMessage;
   }
 
-  function shuffleArray(array) {
-    for (let i = array.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [array[i], array[j]] = [array[j], array[i]];
-    }
-  }
-
   try {
     conn.reply(message.chat, '✨️ *ENVIANDO SUS RESULTADOS..*', message, {
-      contextInfo: { 
-        externalAdReply: { 
-          mediaUrl: null, 
-          mediaType: 1, 
+      contextInfo: {
+        externalAdReply: {
+          mediaUrl: null,
+          mediaType: 1,
           showAdAttribution: true,
           title: '♡  ͜ ۬︵࣪᷼⏜݊᷼𝘋𝘦𝘴𝘤𝘢𝘳𝘨𝘢𝘴⏜࣪᷼︵۬ ͜ ',
           body: '𝐍𝐞𝐲𝐫𝐚-𝐀𝐈-𝐁𝐨𝐭',
-          previewType: 0, 
+          previewType: 0,
           thumbnail: logo5,
-          sourceUrl: cn 
+          sourceUrl: cn
         }
       }
     });
 
     let results = [];
-    let { data } = await axios.get("https://apis-starlights-team.koyeb.app/starlight/tiktoksearch?text=" + text);
-    let searchResults = data.data;
-    shuffleArray(searchResults);
-    let topResults = searchResults.splice(0, 7);
+    let { data } = await axios.get("https://rest.codescript.my/api/ttsearch?q=" + encodeURIComponent(text));
+    let topResult = data;
 
-    for (let result of topResults) {
-      results.push({
-        body: proto.Message.InteractiveMessage.Body.fromObject({ text: null }),
-        footer: proto.Message.InteractiveMessage.Footer.fromObject({ text: titulowm }),
-        header: proto.Message.InteractiveMessage.Header.fromObject({
-          title: '' + result.title,
-          hasMediaAttachment: true,
-          videoMessage: await createVideoMessage(result.nowm)
-        }),
-        nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.fromObject({ buttons: [] })
-      });
-    }
+    results.push({
+      body: proto.Message.InteractiveMessage.Body.fromObject({ text: null }),
+      footer: proto.Message.InteractiveMessage.Footer.fromObject({ text: titulowm }),
+      header: proto.Message.InteractiveMessage.Header.fromObject({
+        title: '' + topResult.title,
+        hasMediaAttachment: true,
+        videoMessage: await createVideoMessage(topResult.video_url)
+      }),
+      nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.fromObject({ buttons: [] })
+    });
 
     const messageContent = generateWAMessageFromContent(message.chat, {
       viewOnceMessage: {
@@ -102,7 +91,7 @@ let handler = async (message, { conn, text, usedPrefix, command }) => {
 handler.help = ["tiktoksearch <txt>"];
 handler.estrellas = 1;
 handler.group = true;
-handler.register = true
+handler.register = true;
 handler.tags = ["buscador"];
 handler.command = ["tiktoksearch", "tts", "tiktoks"];
 
