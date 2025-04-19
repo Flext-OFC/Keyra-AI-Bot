@@ -30,7 +30,7 @@ let perfil = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://qu.a
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 const vid = ['https://files.catbox.moe/10zyi3.mp4', 'https://files.catbox.moe/10zyi3.mp4', 'https://files.catbox.moe/10zyi3.mp4']
 
-let menu = `✦·┈๑⋅⋯🌹⋯⋅๑┈·✦
+let menu = `𓍯𓂃𓏧♡𝐖𝐄𝐋𝐂𝐎𝐌𝐄𓍯𓂃𓏧♡
 ₊‧.°.⋆✮⋆.°.‧₊(꯭𝐍𝐞𝐲𝐫𝐚-𝐀𝐈-𝐁𝐨𝐭𓏲֟፝₊✮⋆.°.‧₊
 ⁺˚⋆｡°✩₊✩°｡⋆˚⁺⁺˚⋆｡°✩₊✩°｡⋆˚⁺
 
