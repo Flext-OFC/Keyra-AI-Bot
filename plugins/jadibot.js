@@ -37,7 +37,7 @@ break
 case isCommand2:
 if (global.conn.user.jid == conn.user.jid) conn.reply(m.chat, `💥 Si no es *SubBot* comuníquese al numero principal del *Bot* para ser *SubBot*`, m)
 else {
-await conn.reply(m.chat, `💥 Megumin desactivada.`, m)
+await conn.reply(m.chat, `💥 NeyraBot desactivada.`, m)
 conn.ws.close()}  
 break
 
