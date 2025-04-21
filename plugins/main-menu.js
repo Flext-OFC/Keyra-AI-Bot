@@ -506,7 +506,7 @@ let menu = `𓍯𓂃𓏧♡𝐖𝐄𝐋𝐂𝐎𝐌𝐄𓍯𓂃𓏧♡
 
 > © 𝐌𝐨𝐨𝐧𝐠𝐋𝐢𝐧𝐠𝐡𝐭 ❀`.trim()
 
-await conn.sendMessage(m.chat, { video: { url: vid.getRandom() }, caption: menu, contextInfo: { mentionedJid: [m.sender], isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id, newsletterName: channelRD.name, serverMessageId: -1, }, forwardingScore: 999, externalAdReply: { title: '⏤͟͞ू⃪ ፝͜🌹𝑲𝑬𝒀𝑹𝑨-𝑨𝑰-𝑩𝑶𝑻🍧✰⃔࿐', body: dev, thumbnailUrl: perfil, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false,
+await conn.sendMessage(m.chat, { video: { url: vid.getRandom() }, caption: menu, contextInfo: { mentionedJid: [m.sender], isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id, newsletterName: channelRD.name, serverMessageId: -1, }, forwardingScore: 999, externalAdReply: { title: '⏤͟͞ू⃪ ፝͜🌹𝐍𝐄𝐘𝐑𝐀-𝐀𝐈-𝐁𝐎𝐓🍧✰⃔࿐', body: dev, thumbnailUrl: perfil, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false,
 }, }, gifPlayback: true, gifAttribution: 0 }, { quoted: null })
 await m.react(emojis)    
 
